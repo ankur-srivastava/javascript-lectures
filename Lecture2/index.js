@@ -12,7 +12,9 @@ let firstName = 'Ankur';
 // const is used to declare variables whose values do not change.
 
 let age = 30;
+age = 50;
 const color = 'red';
+color = 'yellow'
 
 // If we just write
 let price;
@@ -23,7 +25,9 @@ console.log(price);
 // Initialize a Variable
 // Initialize means assigning a value to a variable.
 let cost = 500;
-
+let costPrice = 800;
+let firstName
+let let = 100;
 // Variable Naming Rules
 //
 //   1. Don't use numbers at the start of variables. This is not allowed.
