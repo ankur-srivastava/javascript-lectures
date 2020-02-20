@@ -1,39 +1,49 @@
-// LECTURE 4 - Strings in Javascript
+// LECTURE 4 - Javascript Strings
+//
+// We will learn how to create Strings, escaping quotes and string concatenation.
+//
+// Creating a String
+// Strings are surrounded by quotation marks. It can be single or double quotes.
+// Just like we declare and initialize numbers we can work with strings.
 
-// HTML provides structure to text. Like <p>This is a Para</p>
-// CSS helps to style the text.
-// JS helps to manipulate / store text.
+let message = 'Hello World';
+message
 
-let message = 'Game starts at 4pm'
+// Here message is a string literal.
 
-// A string is surrounded by quotes. Either single or double
+// Escaping Characters in a String
+// Let's say we need to use the following string - 'I'm at the store right now'. As you can see here we have a single quote in the string itself. This won't work.
+// To handle this we can use the \ symbol.
 
-// How to write this ? In the example below we are using a quote within enclosing quotes.
+let message = 'I\'m at the store right now'
 
-let newMessage = 'Game's happening at 4';
+// Using \' solves the problem.
 
-// To write this we need escape characters.
+// Joining two strings
+// To join or concatenate two strings we can use + operator.
 
-let newMessage = 'Game\'s happening at 4';
+let str1 = 'Hello';
+let str2 = 'Sam';
 
-// Concatenation
+str1+' '+str2
 
-let fullName = firstName + lastName;
+// To convert a string to a number you can use the Number() function.
+// To convert a number to a string you can use toString()
 
-// What happens here
+// Example
+let numStr = '922';
+typeof(numStr)
 
-let temp = 'My car sold for '+4200;
+let num = Number(numStr);
+typeof(num)
 
-// 4200 is converted to a string
+let tempStr = num.toString();
+typeof(tempStr)
 
-// if we have a string like
+// Template Literals or Template Strings
+// This is a new addition. Using this it's convenient to concatenate strings or print out a variable value.
+// We use backtick instead of quotes.
 
-let num = '4200';
-
-// Then we can convert it to a number using
-
-num = Number(num);
-
-// And to convert it back to a string we can use
-
-num = num.toString();
+let fName = 'Raj';
+let message = `Check this out. My name is ${fName}`;
+message
