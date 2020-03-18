@@ -1,0 +1,61 @@
+Lecture 8 - Conditional Statements in Javascript
+
+if...else
+
+  Syntax
+
+    if (condition) {
+      // code
+    } else {
+      // code
+    }
+
+else if
+  To add more else conditions you can use else if clause
+
+  if (1<x<2) {
+
+  } else if (2<x<3) {
+
+  } else {
+
+  }
+
+We can use conditional operators like <, >, <= etc.
+
+  if(x == 'A') {
+
+  }
+
+From the documentation
+
+  "Any value that is not false, undefined, null, 0, NaN, or an empty string ('') actually returns true
+  when tested as a conditional statement, therefore you can simply use a variable name on its own
+  to test whether it is true, or even that it exists (that is, it is not undefined.) "
+
+if(data) {
+  console.log(data);
+}
+
+
+Switch Case
+If-else is good when we have few conditions to take care of. What if we want to add more conditions.
+
+Let us look at an example
+
+let day = 'Monday'
+switch(day) {
+  case 'Monday':
+    console.log('Today is Monday')
+    break;
+  case 'Tuesday':
+    console.log('Today is Tuesday')
+    break;
+  case 'Wednesday':
+    console.log('Today is Wednesday')
+    break;
+  default:
+    console.log('No Match')
+}
+
+This example demonstrates how to use switch statements.
