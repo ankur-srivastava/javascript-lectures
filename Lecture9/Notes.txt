@@ -1,0 +1,11 @@
+In this Lecture I will discuss
+
+  1. Technologies needed to build Websites or Web Applications
+  2. Introduction to HTML
+
+Technologies needed to build Websites or Web Applications
+  The basic technologies required to create a website are HTML, CSS and Javascript.
+  We will explore HTML in this Lecture. CSS and Javascript are topics for coming lectures.
+
+Introduction to HTML
+  Let's create an HTML Page.
